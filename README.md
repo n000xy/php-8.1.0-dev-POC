@@ -1,4 +1,4 @@
-# PHP-8.1.0-dev-poc
+# php 8 poc
 Remote Command Execution
 ## Usage
 ```bash
